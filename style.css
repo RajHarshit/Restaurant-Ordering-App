@@ -1,0 +1,256 @@
+body {
+    margin: 0 auto;
+    font-family: 'Smythe', cursive;
+    width: 700px;
+    min-height: 1200px;
+}
+
+main {
+    width: 650px;
+    margin: 0px auto;
+}
+
+header {
+    background-image: url("/images/burger.png");
+    background-size: cover; 
+    width: 700px;
+    height: 190px; 
+    color: #FFFFFF;    
+}
+
+.header-text {
+    padding: 10px 40px;
+}
+
+.header-title {
+    font-size: 38px;
+    margin-bottom: 0;
+}
+
+.header-subtitle {
+    font-size: 23px;
+    line-height: 0px;
+}
+
+.shop-item-line {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    border-bottom: solid 1px #D2D2D2;
+}
+
+.shop-item {
+    display: flex;
+    line-height: 0px;
+}
+
+.item-name {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.item-ingredients {
+    font-size: 18px;
+    color: #8B8B8B;
+    margin-left: 30px;
+    padding-bottom: 15px;
+}
+
+.item-price {
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.add-btn {
+    border-radius: 50%;
+    border: #dedede solid 2px;
+    background-color: #FFFFFF;
+    width: 55px;
+    height: 55px;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.add-btn:hover {
+    font-size: 33px; 
+    border: gray solid 3px;
+}
+
+.hidden {
+    display: none;
+}
+
+.shopping-cart {
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+.your-order {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.render-cart-items {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 16.8px;
+}
+
+.cart-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.cart-item-name {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.cart-item-price {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.remove-btn {
+    width: 77px;
+    height: 22px;
+    left: 102px;
+    top: 868px;
+    font-family: 'Verdana';
+    font-size: 12px;
+    line-height: 24px;
+    color: #BBBBBB;
+    background-color: white;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.remove-btn:hover {
+    color: cadetblue;
+}
+
+.total-price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    border-top: 2px solid #393333;
+}
+
+.item-and-remove {
+    display: flex;
+    align-items: center;
+}
+
+.card-details {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 655px;
+    height: 460px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 100px 10px #757575;
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 100;
+}
+
+.enter-details {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    margin: auto;
+}
+
+input {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #757575;
+    border-radius: 4px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    font-family: Verdana;
+    border: #757575;
+}
+
+.big-btn {
+    background-color: #16DB99;
+    display: flex;
+    justify-content: center;
+    width: 655px;
+    transition: background-color 0.3s ease;
+    border: none;  
+    border-radius: 4px;  
+    color: white;
+    padding: 13px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.big-btn:hover {
+    background-color: #14C389;
+}
+
+.pay-btn {
+    width: 550px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.back-btn {
+    background-color: dimgrey;
+    color: white;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.back-btn:hover {
+    background-color: grey;
+}
+
+.back-img {
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+    margin-right: 6px;
+}
+
+.order-message {
+    background-color: #ECFDF5;
+    border-radius: 3px;
+    margin-top: 40px;
+    color: #065F46;
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+}

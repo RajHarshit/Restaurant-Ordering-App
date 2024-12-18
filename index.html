@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Restaurant Ordering App</title>
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="online-order.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>  
+            <div class="header-text">
+                <p class="header-title">Harsh's Diner</p>
+                <p class="header-subtitle">The best burgers and pizzas in town.</p>
+            </div>
+        </header>
+        
+        <main>
+            <div id="item-list">
+                <!-- Menu items will render here -->
+            </div>
+
+            <div class="hidden" id="hidden">
+                
+                <div class="shopping-cart" id="shopping-cart">
+                    <p class="your-order">Your Order</p>
+                </div>
+
+                <div class="render-cart-items" id="render-cart-items">
+                    <!-- Shopping List -->
+                </div>
+
+                <div class="total-price-container">
+                    <p>Total price: </p>
+                    <span id="total-price"></span> 
+                </div>
+
+                <button 
+                    type="button" 
+                    class="complete-btn big-btn"
+                    id="complete-btn">
+                    Complete Order
+                </button>
+            </div>
+
+            <div class="card-details hidden" id="card-details">
+                <h1 class="enter-details">Enter Your card details</h1>
+                <form class="form" id="form">
+                    <input type="text" name="card-name" placeholder="Enter Your Name" required>
+                    <input type="text" name="card-number" placeholder="Enter Card Number" required>
+                    <input type="text" name="card-cvv" placeholder="Enter CVV" required>
+                    <button
+                        type = "submit"
+                        class = "pay-btn big-btn"
+                        id="pay-btn">
+                        Pay
+                    </button>
+                    <button
+                        type="button"
+                        class="back-btn"
+                        id="back-btn">
+                        <img src="left-arrow.png" alt="back arrow" class="back-img">
+                        Back to Your Order
+                </button>
+                </form>
+            </div>
+
+            <div class="order-coming-message" id="order-coming-message">
+                <!-- Order confirmation message will render here -->
+            </div>
+
+        </main>
+    <script src="index.js" async type="module"></script>
+  </body>
+</html>
