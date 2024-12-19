@@ -2,7 +2,7 @@ body {
     margin: 0 auto;
     font-family: 'Smythe', cursive;
     width: 700px;
-    min-height: 1200px;
+    min-height: 1250px;
 }
 
 main {
@@ -15,7 +15,7 @@ header {
     background-size: cover; 
     width: 700px;
     height: 190px; 
-    color: #FFFFFF;
+    color: #FFFFFF;    
 }
 
 .header-text {
@@ -200,7 +200,7 @@ input::placeholder {
     background-color: #16DB99;
     display: flex;
     justify-content: center;
-    width: 655px;
+    width: 553px;
     transition: background-color 0.3s ease;
     border: none;  
     border-radius: 4px;  
